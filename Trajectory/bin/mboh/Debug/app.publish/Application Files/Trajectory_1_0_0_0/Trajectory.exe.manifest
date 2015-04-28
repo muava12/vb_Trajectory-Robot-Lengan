@@ -1,0 +1,77 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<asmv1:assembly xsi:schemaLocation="urn:schemas-microsoft-com:asm.v1 assembly.adaptive.xsd" manifestVersion="1.0" xmlns:asmv1="urn:schemas-microsoft-com:asm.v1" xmlns="urn:schemas-microsoft-com:asm.v2" xmlns:asmv2="urn:schemas-microsoft-com:asm.v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:co.v1="urn:schemas-microsoft-com:clickonce.v1" xmlns:asmv3="urn:schemas-microsoft-com:asm.v3" xmlns:dsig="http://www.w3.org/2000/09/xmldsig#" xmlns:co.v2="urn:schemas-microsoft-com:clickonce.v2">
+  <asmv1:assemblyIdentity name="Trajectory.exe" version="1.0.0.0" publicKeyToken="ebc04dcb062a7538" language="id-ID" processorArchitecture="msil" type="win32" />
+  <application />
+  <entryPoint>
+    <assemblyIdentity name="Trajectory" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+    <commandLine file="Trajectory.exe" parameters="" />
+  </entryPoint>
+  <trustInfo>
+    <security>
+      <applicationRequestMinimum>
+        <PermissionSet Unrestricted="true" ID="Custom" SameSite="site" />
+        <defaultAssemblyRequest permissionSetReference="Custom" />
+      </applicationRequestMinimum>
+      <requestedPrivileges xmlns="urn:schemas-microsoft-com:asm.v3">
+        <!--
+          UAC Manifest Options
+          If you want to change the Windows User Account Control level replace the 
+          requestedExecutionLevel node with one of the following.
+
+        <requestedExecutionLevel  level="asInvoker" uiAccess="false" />
+        <requestedExecutionLevel  level="requireAdministrator" uiAccess="false" />
+        <requestedExecutionLevel  level="highestAvailable" uiAccess="false" />
+
+         If you want to utilize File and Registry Virtualization for backward 
+         compatibility then delete the requestedExecutionLevel node.
+    -->
+        <requestedExecutionLevel level="asInvoker" uiAccess="false" />
+      </requestedPrivileges>
+    </security>
+  </trustInfo>
+  <dependency>
+    <dependentOS>
+      <osVersionInfo>
+        <os majorVersion="5" minorVersion="1" buildNumber="2600" servicePackMajor="0" />
+      </osVersionInfo>
+    </dependentOS>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="Microsoft.Windows.CommonLanguageRuntime" version="4.0.30319.0" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="Microsoft.VisualBasic.PowerPacks.Vs.dll" size="269344">
+      <assemblyIdentity name="Microsoft.VisualBasic.PowerPacks.Vs" version="10.0.0.0" publicKeyToken="B03F5F7F11D50A3A" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>jdtxd2sS/GAR6K8OHfT7S3JBSwXU0RywsX+ucaNWQF4=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="Trajectory.exe" size="234496">
+      <assemblyIdentity name="Trajectory" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>m/tofTRoGJcLKVwMhc7TA1ybLmO8uG3uv5wcewRt9U8=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <file name="Trajectory.exe.config" size="186">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>h0UeIdteCM29dGVw07LmHp593fPbh0IN11GyN3f2uRA=</dsig:DigestValue>
+    </hash>
+  </file>
+<publisherIdentity name="CN=moemoe\Muafa" issuerKeyHash="c84735a18c86b662548eabcd6abef40bf61a172f" /><Signature Id="StrongNameSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>UnS7Te7QARXDzpbLpESlSsPBJa2G1NW6DGu176oMTEg=</DigestValue></Reference></SignedInfo><SignatureValue>QBRBA5FNcUHrAZSx2XkKucDaGzZ4CRtSY2gDriUJz00pc6f2P3x0uBD7CSwABQiJhnGMD2eWmsbCs2UAKBu3gsrxwxWIVdbVblN34D9ml3a5dspC3k145YX3PMsp6QG03+xxSz+m9NQlhh+gi3M3fwe5MQxv3mUANQpq0HiKlOk=</SignatureValue><KeyInfo Id="StrongNameKeyInfo"><KeyValue><RSAKeyValue><Modulus>iIb77t2ywKuh2mu92+plk2jEzdqguYhGcK5KNLgDF/tuYTemU8MBCsIwJCeXfHo5WPpRwZCb6TLnt07AGoq5u7oeGXJtj8RAgveXzw4GpBajAJTHdfF5xAp7Bg1gcyLzNb7jPn1qNO21rocU/C27/gfi4NMY6EM2Z8HqF04PSSE=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><msrel:RelData xmlns:msrel="http://schemas.microsoft.com/windows/rel/2005/reldata"><r:license xmlns:r="urn:mpeg:mpeg21:2003:01-REL-R-NS" xmlns:as="http://schemas.microsoft.com/windows/pki/2005/Authenticode"><r:grant><as:ManifestInformation Hash="484c0caaefb56b0cbad5d486ad25c1c34aa544a4cb96cec31501d0ee4dbb7452" Description="" Url=""><as:assemblyIdentity name="Trajectory.exe" version="1.0.0.0" publicKeyToken="ebc04dcb062a7538" language="id-ID" processorArchitecture="msil" type="win32" /></as:ManifestInformation><as:SignedBy /><as:AuthenticodePublisher><as:X509SubjectName>CN=moemoe\Muafa</as:X509SubjectName></as:AuthenticodePublisher></r:grant><r:issuer><Signature Id="AuthenticodeSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>981Xo/FKNTnDSbpr2aEQTzrreiKUguaEQkw1/NLiLrM=</DigestValue></Reference></SignedInfo><SignatureValue>OTlAa96O2vnCQyt+xiaCuTlPWcn34RNNFWG6tRlb4cxYO76JLNBJVwRrm7DYp/8dm9hlaAs8JNQWsByuQmCdF00YZc/geg/JfK2DuCXjE4USs8DafU6api54N2gFZJbBEe+NzX0dOH/pMAFia7PVooPftMF55Dt2zhozLEtVDBY=</SignatureValue><KeyInfo><KeyValue><RSAKeyValue><Modulus>iIb77t2ywKuh2mu92+plk2jEzdqguYhGcK5KNLgDF/tuYTemU8MBCsIwJCeXfHo5WPpRwZCb6TLnt07AGoq5u7oeGXJtj8RAgveXzw4GpBajAJTHdfF5xAp7Bg1gcyLzNb7jPn1qNO21rocU/C27/gfi4NMY6EM2Z8HqF04PSSE=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><X509Data><X509Certificate>MIIByTCCATKgAwIBAgIQVfTftmkkq45KPiLqnbzpezANBgkqhkiG9w0BAQsFADAjMSEwHwYDVQQDHhgAbQBvAGUAbQBvAGUAXABNAHUAYQBmAGEwHhcNMTMxMjE1MTAxMDA5WhcNMTQxMjE1MTYxMDA5WjAjMSEwHwYDVQQDHhgAbQBvAGUAbQBvAGUAXABNAHUAYQBmAGEwgZ8wDQYJKoZIhvcNAQEBBQADgY0AMIGJAoGBAIiG++7dssCrodprvdvqZZNoxM3aoLmIRnCuSjS4Axf7bmE3plPDAQrCMCQnl3x6OVj6UcGQm+ky57dOwBqKubu6HhlybY/EQIL3l88OBqQWowCUx3XxecQKewYNYHMi8zW+4z59ajTtta6HFPwtu/4H4uDTGOhDNmfB6hdOD0khAgMBAAEwDQYJKoZIhvcNAQELBQADgYEAQX2zJQTVxQxkJb1UJHk2Z9r8YMCLHnDXpD1NQahctb1YCYveDH3Qyr7bb1oxIIfnzYVrz0zup6TEo/ZR9JxbwGFlw6bI5mXNPbjUDG7bSMknou+Dh+pHBGoFzMLJLVunyKktA2z9ct/VWlYO+er6HYBx6NBljNZ9OpjniNbPpn4=</X509Certificate></X509Data></KeyInfo></Signature></r:issuer></r:license></msrel:RelData></KeyInfo></Signature></asmv1:assembly>

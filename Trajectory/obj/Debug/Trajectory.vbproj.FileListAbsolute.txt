@@ -1,0 +1,11 @@
+\\VBOXSVR\Mine_Inside2\Projects\Sinau VB\Trajectory\Trajectory\bin\Debug\Trajectory.exe.config
+\\VBOXSVR\Mine_Inside2\Projects\Sinau VB\Trajectory\Trajectory\bin\Debug\Trajectory.exe
+\\VBOXSVR\Mine_Inside2\Projects\Sinau VB\Trajectory\Trajectory\bin\Debug\Trajectory.pdb
+\\VBOXSVR\Mine_Inside2\Projects\Sinau VB\Trajectory\Trajectory\bin\Debug\Trajectory.xml
+\\VBOXSVR\Mine_Inside2\Projects\Sinau VB\Trajectory\Trajectory\obj\Debug\Trajectory.Form1.resources
+\\VBOXSVR\Mine_Inside2\Projects\Sinau VB\Trajectory\Trajectory\obj\Debug\Trajectory.Resources.resources
+\\VBOXSVR\Mine_Inside2\Projects\Sinau VB\Trajectory\Trajectory\obj\Debug\Trajectory.vbproj.GenerateResource.Cache
+\\VBOXSVR\Mine_Inside2\Projects\Sinau VB\Trajectory\Trajectory\obj\Debug\Trajectory.exe
+\\VBOXSVR\Mine_Inside2\Projects\Sinau VB\Trajectory\Trajectory\obj\Debug\Trajectory.xml
+\\VBOXSVR\Mine_Inside2\Projects\Sinau VB\Trajectory\Trajectory\obj\Debug\Trajectory.pdb
+\\VBOXSVR\Mine_Inside2\Projects\Sinau VB\Trajectory\Trajectory\obj\Debug\Trajectory.Form_About.resources
