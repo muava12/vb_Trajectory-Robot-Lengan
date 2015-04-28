@@ -5,11 +5,11 @@ Trajectory-Robot-Lengan
 
 ###Screeshots
 
-http://s15.postimg.org/y7r1oidzv/image.gif
+![Tampilan Utama](http://s15.postimg.org/y7r1oidzv/image.gif)
 
-http://s15.postimg.org/byd4hyijf/invers.gif
+![Tampilan Utama](http://s15.postimg.org/byd4hyijf/invers.gif)
 
-http://s15.postimg.org/70zjwugkb/keterangan.gif
+![Tampilan Utama](http://s15.postimg.org/70zjwugkb/keterangan.gif)
 
 
 *Dibuat sebagai tugas perkuliahan Robotika di POLITEKNIK ELEKTRONIKA NEGERI SURABAYA*
